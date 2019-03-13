@@ -1,0 +1,23 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "watch": "nodemon app.js"
+  },
+  "author": "Budavölgyi Bálint",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^5.1.1",
+    "puppeteer": "^1.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
