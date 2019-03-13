@@ -10,7 +10,7 @@ const { checkForNewDeal } = require('./src/dealController');
 
 var svc = new Service({
     name: 'Tryspree Scraper',
-    description: 'Node.js app to scrape new deals form tryspree.com, and send a notification in emal.',
+    description: 'Node.js app to scrape new deals form tryspree.com, and send a notification in email.',
     script: process.env.PATH_TO_START_SCRIPT,
     nodeOptions: [
         '--max_old_space_size=4096'
