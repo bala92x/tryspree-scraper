@@ -1,5 +1,5 @@
 # tryspree-scraper
-Node.js based windows service to scrape new deals form tryspree.com, and send notification emails.
+Node.js based Windows service to scrape new deals form tryspree.com, and send notification emails.
 
 The application expects a `.env` file in the root directory with the following environment variables:
 
